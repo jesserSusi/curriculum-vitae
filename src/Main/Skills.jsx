@@ -9,7 +9,7 @@ class Skills extends React.Component {
         <Row>
           <Col>
             <div className="skills">
-              <h3>TECHNICAL SKILLS AND TOOLS</h3>
+              <h3>TECHNICAL SKILLS</h3>
             </div>
           </Col>
         </Row>
@@ -18,7 +18,7 @@ class Skills extends React.Component {
             <Col>
               <ul>
                 <li>C# .Net, ASP.NET MVC, WPF</li>
-                <li>javaScript, jQuery, HTML, CSS, Bootstrap, React.JS</li>
+                <li>javaScript, jQuery, HTML, CSS, Bootstrap, React.js</li>
                 <li>Microsoft SQL Server</li>
               </ul>
             </Col>
