@@ -2,9 +2,6 @@ import React from "react";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
-import runtimeEnv from "@mars/heroku-js-runtime-env";
-
-const env = runtimeEnv();
 
 class Header extends React.Component {
   render() {
@@ -18,7 +15,7 @@ class Header extends React.Component {
           </Col>
           <Col xs={8} md={9} lg={10}>
             <div className="header-info">
-              <h1>Hi, I'm {env.REACT_APP_NAME}</h1>
+              <h1>Hi, I'm {process.env.REACT_APP_NAME}</h1>
             </div>
           </Col>
         </Row>

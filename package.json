@@ -1,7 +1,8 @@
 {
-  "name": "jessersusi-cv",
+  "name": "curriculum-vitae",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://foreign-key.github.io/jessersusi",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.14.0",

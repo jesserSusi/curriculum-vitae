@@ -4,9 +4,6 @@ import Tooltip from "react-bootstrap/Tooltip";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faFileCode } from "@fortawesome/free-solid-svg-icons";
-import runtimeEnv from "@mars/heroku-js-runtime-env";
-
-const env = runtimeEnv();
 
 const FooterIcon = (props) => {
   return (
@@ -28,25 +25,25 @@ class Footer extends React.Component {
         <h5 style={{ marginRight: "0.5rem" }}>Let's Connect! </h5>
         <div className="socials-icons">
           <FooterIcon
-            link={env.REACT_APP_FOOTER_GITHUB}
+            link={process.env.REACT_APP_FOOTER_GITHUB}
             classname="github social"
             faicon={faGithub}
             info="GitHub"
           />
           <FooterIcon
-            link={env.REACT_APP_FOOTER_LINKEDIN}
+            link={process.env.REACT_APP_FOOTER_LINKEDIN}
             classname="linkedin social"
             faicon={faLinkedin}
             info="LinkedIn"
           />
           <FooterIcon
-            link={env.REACT_APP_FOOTER_EMAIL}
+            link={process.env.REACT_APP_FOOTER_EMAIL}
             classname="email social"
             faicon={faEnvelope}
             info="Email"
           />
           <FooterIcon
-            link={env.REACT_APP_FOOTER_CV}
+            link={process.env.REACT_APP_FOOTER_CV}
             classname="resume social"
             faicon={faFileCode}
             info="Curriculum Vitae or Resume"
