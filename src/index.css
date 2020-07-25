@@ -155,7 +155,7 @@ a.email:hover {
 }
 
 .skills-info {
-  padding: 20px 20px 4px 20px;
+  padding: 20px;
 }
 
 .skills h3,
@@ -204,7 +204,11 @@ a {
   color: #d6eaf8;
 }
 
+a:hover {
+  color: #f4d03f;
+}
+
 .carousel-caption {
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(28, 40, 51, 0.9);
   border-radius: 10px;
 }

@@ -36,7 +36,7 @@ class Projects extends React.Component {
           <Row>
             {getData() !== undefined &&
               getData().projects.map((item, index) => (
-                <Col key={index}>
+                <Col xs={12} md={6} xl={6} key={index}>
                   <a href={`https://${item.link}.netlify.app`}>
                     <h5>{item.name}</h5>
                   </a>

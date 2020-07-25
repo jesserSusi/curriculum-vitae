@@ -20,13 +20,9 @@ class Skills extends React.Component {
         </Row>
         <div className="skills-info">
           <Row>
-            <Col>
-              <ul>
-                {getData() !== undefined &&
-                  getData().skills.map((item, index) =>
-                    SkillItems(item, index)
-                  )}
-              </ul>
+            <Col xs={12} md={6} xl={6}>
+              {getData() !== undefined &&
+                getData().skills.map((item, index) => SkillItems(item, index))}
             </Col>
             <Col>
               {getData() !== undefined &&
