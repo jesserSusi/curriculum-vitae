@@ -16,7 +16,7 @@ const ProjectCarousel = (props, index) => {
           rounded
         />
         <Carousel.Caption>
-          <a href={`https://${props.link}.herokuapp.com`}>
+          <a href={`https://${props.link}.netlify.app`}>
             <h3>{props.name}</h3>
           </a>
         </Carousel.Caption>
@@ -37,7 +37,7 @@ class Projects extends React.Component {
             {getData() !== undefined &&
               getData().projects.map((item, index) => (
                 <Col key={index}>
-                  <a href={`https://${item.link}.herokuapp.com`}>
+                  <a href={`https://${item.link}.netlify.app`}>
                     <h5>{item.name}</h5>
                   </a>
                   <h6>{item.description}</h6>
