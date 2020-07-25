@@ -28,19 +28,15 @@ const ExperienceItems = (props, index) => {
       <Row>
         <Col xs={12} lg={8}>
           <h5>Responsibilities</h5>
-          <ul>
-            {props.responsibilities.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
+          {props.responsibilities.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
         </Col>
         <Col>
           <h5>Software Development Tools</h5>
-          <ul>
-            {props.tools.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
+          {props.tools.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
         </Col>
       </Row>
     </div>
