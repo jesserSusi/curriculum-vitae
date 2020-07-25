@@ -1,6 +1,11 @@
 import React from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import { getData } from "../helpers";
+
+const SkillItems = (props, index) => {
+  return <li key={index}>{props.info}</li>;
+};
 
 class Skills extends React.Component {
   render() {
@@ -17,17 +22,15 @@ class Skills extends React.Component {
           <Row>
             <Col>
               <ul>
-                <li>C# .Net, ASP.NET MVC, WPF</li>
-                <li>javaScript, jQuery, HTML, CSS, Bootstrap, React.js</li>
-                <li>Microsoft SQL Server</li>
+                {getData() !== undefined &&
+                  getData().skills.map((item, index) =>
+                    SkillItems(item, index)
+                  )}
               </ul>
             </Col>
             <Col>
-              <ul>
-                <li>Web Services, REST APIs</li>
-                <li>Visual Studio, Visual Studio Code, TFS, JIRA, Git</li>
-                <li>Agile Scrum Development</li>
-              </ul>
+              {getData() !== undefined &&
+                getData().tools.map((item, index) => SkillItems(item, index))}
             </Col>
           </Row>
         </div>

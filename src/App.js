@@ -8,9 +8,13 @@ import Skills from "./Main/Skills";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import "./App.css";
+import { getData } from "./helpers";
 
 class App extends React.Component {
+  componentDidMount() {
+    document.title = getData().docTitle;
+  }
+
   render() {
     return (
       <Container fluid>

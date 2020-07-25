@@ -14,7 +14,7 @@ const FooterIcon = (props) => {
       placement="top"
       overlay={<Tooltip id={`tooltip-${props.info}`}>{props.info}</Tooltip>}
     >
-      <a href={props.env} className={props.classname}>
+      <a href={props.link} className={props.classname}>
         <FontAwesomeIcon icon={props.faicon} size="2x" />
       </a>
     </OverlayTrigger>
@@ -28,25 +28,25 @@ class Footer extends React.Component {
         <h5 style={{ marginRight: "0.5rem" }}>Let's Connect! </h5>
         <div className="socials-icons">
           <FooterIcon
-            env={env.REACT_APP_FOOTER_GITHUB}
+            link={env.REACT_APP_FOOTER_GITHUB}
             classname="github social"
             faicon={faGithub}
             info="GitHub"
           />
           <FooterIcon
-            env={env.REACT_APP_FOOTER_LINKEDIN}
+            link={env.REACT_APP_FOOTER_LINKEDIN}
             classname="linkedin social"
             faicon={faLinkedin}
             info="LinkedIn"
           />
           <FooterIcon
-            env={env.REACT_APP_FOOTER_EMAIL}
+            link={env.REACT_APP_FOOTER_EMAIL}
             classname="email social"
             faicon={faEnvelope}
             info="Email"
           />
           <FooterIcon
-            env={env.REACT_APP_FOOTER_CV}
+            link={env.REACT_APP_FOOTER_CV}
             classname="resume social"
             faicon={faFileCode}
             info="Curriculum Vitae or Resume"
