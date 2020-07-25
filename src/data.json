@@ -82,7 +82,7 @@
       "title": "Junior Software Developer",
       "projectInfo": "Foreign Exchange Trading Platforms (client and server applications)",
       "responsibilities": [
-        "Analyzed the processes and developed client and server trading platforms using C# and MS SQL",
+        "Analyzed the processes and developed client and server trading platforms",
         "Researched technologies on how client and server applications can communicate",
         "Researched and implemented ways to address application's performance issue",
         "Performed regression testing for functionality and quality control",
@@ -116,13 +116,15 @@
   "skills": [
     { "info": "C# .Net, ASP.NET MVC, WPF" },
     { "info": "javaScript, jQuery, HTML, CSS, Bootstrap, React.js" },
-    { "info": "Microsoft SQL Server" }
+    { "info": "Microsoft SQL Server" },
+    { "info": "Visual Studio, Visual Studio Code" }
   ],
   "tools": [
     { "info": "Web Services and APIs, REST APIs" },
     {
-      "info": "Visual Studio, Visual Studio Code, TFS, JIRA, GitHub, Heroku, Netlify"
+      "info": "Microsoft TFS, JIRA, GitHub, Heroku, Netlify"
     },
-    { "info": "Agile Scrum Development" }
+    { "info": "Agile Scrum Development, Kanban" },
+    { "info": "DevExpress" }
   ]
 }
