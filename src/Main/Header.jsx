@@ -10,7 +10,7 @@ class Header extends React.Component {
         <Row>
           <Col xs={4} md={3} lg={2}>
             <div className="header-avatar">
-              <Image src={require("../profile.jpg")} roundedCircle fluid />
+              <Image src={process.env.REACT_APP_AVATAR} roundedCircle fluid />
             </div>
           </Col>
           <Col xs={8} md={9} lg={10}>
