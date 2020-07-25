@@ -3,7 +3,9 @@ body {
   font-family: "Ruluko";
 
   text-rendering: optimizeLegibility;
-  color: #d7dbdd;
+  color: #b3b6b7;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -62,7 +64,7 @@ body {
 }
 
 hr {
-  border-top: 1px solid #bebebe;
+  border-top: 1px solid #d0d3d4;
 }
 
 h6 {
@@ -74,16 +76,17 @@ h6 {
 }
 
 .header h1 {
-  color: #f8f9f9;
+  color: #d7dbdd;
   bottom: 0;
   position: absolute;
   left: 0;
   margin: 0px 0px 10px 20px;
   padding: 5px;
+  font-weight: bold;
 }
 
 .header .header-info {
-  background-color: #283747;
+  background-color: #1c282f;
   margin-left: -0.5rem;
   border-radius: 0 0 20px 20px;
   padding: 20px;
@@ -93,14 +96,12 @@ h6 {
 }
 
 .about {
-  background-color: #283747;
-  border-radius: 10px;
   padding: 20px 20px 10px 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 14px;
   margin-top: 14px;
 }
 
+.about,
 .socials,
 .skills,
 .experience,
@@ -108,7 +109,7 @@ h6 {
 .projects,
 .project-desc,
 .skills-info {
-  background-color: #283747;
+  background-color: #1c282f;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -143,14 +144,14 @@ a.email:hover {
   color: #a93226;
 }
 
-.experience {
+.experience,
+.projects,
+.skills {
   justify-content: center;
   display: flex;
 }
 
 .skills {
-  justify-content: center;
-  display: flex;
   margin-bottom: 14px;
 }
 
@@ -162,42 +163,44 @@ a.email:hover {
 .experience h3,
 .projects h3 {
   padding: 20px 20px 10px 20px;
-  color: #e5e7e9;
+  color: #d0d3d4;
 
   font-family: "Alegreya SC";
+  font-weight: bold;
 }
+
+.experience-item h5,
+.project-desc h5 {
+  font-weight: bold;
+}
+
 .experience-item {
   padding: 20px 20px 10px 20px;
   display: block;
   margin-top: 14px;
 }
 
-.projects {
-  justify-content: center;
-  display: flex;
-}
-
 img {
-  border: rgb(215, 219, 221, 0.2);
+  border: rgb(215, 219, 221, 0.7);
   border-style: solid;
-  border-width: 0.1px;
+  border-width: 0.5px;
 }
 
 .project-info {
   margin-bottom: -8px;
 }
 
-.project-desc h5,
-.project-desc h6 {
-  padding: 20px 20px 0px 20px;
+.project-desc h5 {
+  padding: 0px 20px 0px 20px;
 }
 
 .project-desc h6 {
-  padding-bottom: 20px;
+  padding: 0px 20px 20px 20px;
 }
 
 .project-desc {
   margin: 14px 0 14px 0;
+  padding-top: 20px;
 }
 
 a {

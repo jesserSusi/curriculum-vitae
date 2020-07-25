@@ -17,7 +17,7 @@ const ProjectCarousel = (props, index) => {
         />
         <Carousel.Caption>
           <a href={`https://${props.link}.netlify.app`}>
-            <h3>{props.name}</h3>
+            <h5>{props.name}</h5>
           </a>
         </Carousel.Caption>
       </Col>
