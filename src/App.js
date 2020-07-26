@@ -1,43 +1,38 @@
 import React from "react";
-import About from "./Main/About";
-import Experience from "./Main/Experience";
-import Footer from "./Main/Footer";
-import Header from "./Main/Header";
-import Projects from "./Main/Projects";
-import Skills from "./Main/Skills";
+import About from "./components/About";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import { getData } from "./helpers";
+import Sidebar from "./components/Sidebar";
 
-class App extends React.Component {
-  componentDidMount() {
-    document.title = getData().docTitle;
-  }
-
-  render() {
-    return (
+function App() {
+  return (
+    <div className="main">
       <Container fluid>
         <Row>
-          <Col md={1} lg={2} />
-          <Col>
-            <Header />
-            <hr />
-            <Skills />
-            <hr />
-            <About />
-            <hr />
-            <Experience />
-            <hr />
-            <Projects />
-            <hr />
-            <Footer />
+          <Col xl={1} />
+          <Col sm={12} xs={12} md={4} lg={3} xl={2}>
+            <Sidebar />
           </Col>
-          <Col md={1} lg={2} />
+          <Col>
+            <div className="main-scroll">
+              <About />
+              <hr />
+              <Skills />
+              <hr />
+              <Experience />
+              <hr />
+              <Projects />
+            </div>
+          </Col>
+          <Col xl={1} />
         </Row>
       </Container>
-    );
-  }
+    </div>
+  );
 }
 
 export default App;

@@ -33,10 +33,12 @@ const ExperienceItems = (props, index) => {
           ))}
         </Col>
         <Col>
-          <h5>Software Development Tools</h5>
-          {props.tools.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
+          <div className="experience-tools">
+            <h5>Software Development Tools</h5>
+            {props.tools.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </div>
         </Col>
       </Row>
     </div>

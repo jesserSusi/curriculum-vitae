@@ -6,16 +6,19 @@ import { getData } from "../helpers";
 class About extends React.Component {
   render() {
     return (
-      <div className="about">
-        <Row>
-          <Col>
+      <Row>
+        <Col>
+          <div className="about-me">
+            <h3>ABOUT</h3>
+          </div>
+          <div className="about">
             {getData() !== undefined &&
               getData().about.map((item, index) => (
                 <p key={index}>{item.info}</p>
               ))}
-          </Col>
-        </Row>
-      </div>
+          </div>
+        </Col>
+      </Row>
     );
   }
 }
