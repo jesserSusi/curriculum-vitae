@@ -56,13 +56,13 @@ class Sidebar extends Component {
         </div>
         <div className="sidenav-info">
           <h1>{process.env.REACT_APP_NAME}</h1>
-          <h5>Full Stack Software Engineer</h5>
+          <h5>Software Engineer</h5>
           <h5>
             <FontAwesomeIcon icon={faMapMarkerAlt} size="1x" /> Wellington, NZ
           </h5>
 
           <div className="socials">
-            <h6 style={{ marginRight: "0.5rem" }}>Connect with me:</h6>
+            <h5 style={{ marginRight: "0.5rem" }}>Connect with me:</h5>
             <div className="socials-icons">
               <SocialIcon
                 link={process.env.REACT_APP_FOOTER_GITHUB}

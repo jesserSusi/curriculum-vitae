@@ -4,8 +4,8 @@
 }
 
 .sidenav .avatar {
-  width: 230px;
-  height: 230px;
+  width: auto;
+  height: auto;
   overflow: hidden;
   overflow: hidden;
 }

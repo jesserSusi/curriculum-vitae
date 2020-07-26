@@ -21,59 +21,6 @@ body {
   margin: 3% 0 3% 0;
 }
 
-@media screen and (max-width: 768px) {
-  .main-scroll {
-    margin-left: 0px;
-  }
-
-  .sidenav .avatar {
-    margin-top: 14px !important;
-    width: auto !important;
-    height: auto !important;
-  }
-
-  .sidenav h3 {
-    font-size: large;
-  }
-
-  .experience-tools {
-    margin-top: 20px;
-  }
-}
-
-@media screen and (max-width: 280px) {
-  .skills h3,
-  .experience h3,
-  .projects h3 {
-    font-size: x-large;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .sidenav {
-    padding-top: 15px;
-    position: fixed;
-  }
-
-  .sidenav .avatar {
-    margin-top: 14px !important;
-    width: 230px !important;
-    height: auto !important;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .sidenav .avatar {
-    margin-top: -14px !important;
-  }
-}
-
-@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-  .main-scroll {
-    margin-left: 14px !important;
-  }
-}
-
 hr {
   border-top: 1px solid #d0d3d4;
 }
@@ -196,26 +143,4 @@ a:hover {
 .carousel-caption {
   background: rgba(28, 40, 51, 0.9);
   border-radius: 10px;
-}
-
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 3px #7fb3d5;
-  border-radius: 10px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #696969;
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #303030;
 }
