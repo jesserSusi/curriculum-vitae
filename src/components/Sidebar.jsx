@@ -58,7 +58,8 @@ class Sidebar extends Component {
           <h1>{process.env.REACT_APP_NAME}</h1>
           <h5>Software Engineer</h5>
           <h5>
-            <FontAwesomeIcon icon={faMapMarkerAlt} size="1x" /> Wellington, NZ
+            <FontAwesomeIcon icon={faMapMarkerAlt} size="1x" />
+            <a href={process.env.REACT_APP_LOCATION}> Wellington, NZ</a>
           </h5>
 
           <div className="socials">
