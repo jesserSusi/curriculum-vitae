@@ -84,18 +84,13 @@
 
 @media screen and (max-width: 667px) and (orientation: landscape) {
   .sidenav-info {
-    margin-left: 20px !important;
+    margin-left: 30px !important;
   }
 }
 
-@media screen and (min-width: 800px) and (orientation: landscape) {
-  .sidenav .avatar {
-    margin-top: 0px !important;
-    width: 280px !important;
-  }
-
+@media screen and (max-width: 568px) {
   .sidenav-info {
-    margin-left: 20px !important;
+    margin-left: -0px !important;
   }
 }
 
