@@ -10,7 +10,7 @@ const ExperienceItems = (props, index) => {
         <Col>
           <h5>{props.title}</h5>
           <h6>
-            {props.name} / {props.location}
+            <a href={props.website}>{props.name}</a> / {props.location}
           </h6>
           <h6>
             {props.start} – {props.end}

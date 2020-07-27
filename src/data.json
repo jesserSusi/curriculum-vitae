@@ -16,6 +16,7 @@
   "experience": [
     {
       "name": "Infor",
+      "website": "https://www.infor.com/",
       "location": "Manila, Philippines",
       "start": "Nov 2014",
       "end": "Apr 2018",
@@ -50,6 +51,7 @@
     },
     {
       "name": "Londa Online Technologies, Inc.",
+      "website": "https://www.zetaforex.com/",
       "location": "Manila, Philippines",
       "start": "Feb 2013",
       "end": "Nov 2014",
@@ -75,6 +77,7 @@
     },
     {
       "name": "Private Scandinavian Sparkasse",
+      "website": "https://pssforex.com/",
       "location": "Manila, Philippines",
       "start": "Nov 2011",
       "end": "Oct 2012",
