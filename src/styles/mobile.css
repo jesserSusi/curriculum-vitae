@@ -1,106 +1,33 @@
-@media screen and (max-width: 768px) {
-  .main-scroll {
-    margin-left: 0px;
+@media screen and (max-width: 1110px) {
+  .sidenav h1 {
+    font-size: xx-large;
   }
 
-  .sidenav .avatar {
-    margin-top: 14px !important;
-    width: auto !important;
+  .experience-tools {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h3 {
+    font-size: larger;
   }
 
-  .sidenav h3 {
+  h5 {
     font-size: large;
   }
 
-  .experience-tools {
-    margin-top: 20px;
+  p,
+  h6,
+  li {
+    font-size: smaller;
   }
 }
 
-@media screen and (min-width: 992px) {
+@media only screen and (min-width: 1024px) {
   .sidenav {
     position: fixed !important;
-  }
-
-  .sidenav .avatar {
-    width: 230px !important;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .sidenav .avatar {
-    width: 190px !important;
-  }
-}
-
-@media screen and (min-width: 1300px) {
-  .sidenav .avatar {
-    width: 210px !important;
-  }
-}
-
-@media screen and (min-width: 1450px) {
-  .sidenav .avatar {
-    width: 230px !important;
-  }
-}
-
-@media screen and (min-width: 1550px) {
-  .sidenav .avatar {
-    width: 245px !important;
-  }
-}
-
-@media screen and (min-width: 1620px) {
-  .sidenav .avatar {
-    width: 260px !important;
-  }
-}
-
-@media screen and (min-width: 1850px) {
-  .sidenav .avatar {
-    width: 300px !important;
-  }
-}
-
-@media screen and (max-width: 280px) {
-  .skills h3,
-  .experience h3,
-  .projects h3 {
-    font-size: x-large;
-  }
-}
-
-@media screen and (max-width: 736px) and (orientation: landscape) {
-  .sidenav .avatar {
-    margin-top: 0px !important;
-    width: 220px !important;
-  }
-
-  .experience-tools {
-    margin-top: 20px;
-  }
-}
-
-@media screen and (max-width: 667px) and (orientation: landscape) {
-  .sidenav-info {
-    margin-left: 30px !important;
-  }
-}
-
-@media screen and (max-width: 568px) {
-  .sidenav-info {
-    margin-left: -0px !important;
-  }
-}
-
-@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-  .sidenav .avatar {
-    margin-top: 0px !important;
-    width: 210px !important;
-  }
-
-  .sidenav-info {
-    margin-left: 0 !important;
+    width: calc(100% / 4 - 2 * 1em - 2 * 1px) !important;
+    margin-right: -20px !important;
   }
 }

@@ -22,7 +22,7 @@ class App extends Component {
   }
 
   resize() {
-    let currentHideNav = window.innerWidth <= 991;
+    let currentHideNav = window.innerWidth <= 990;
     if (currentHideNav !== this.state.hideNav) {
       this.setState({ hideHR: currentHideNav });
     }
@@ -37,18 +37,23 @@ class App extends Component {
         <Container fluid>
           <Row>
             <Col xl={1} />
-            <Col sm={12} xs={12} md={12} lg={3} xl={2}>
+            <Col sm={12} xs={12} md={12} lg={3} xl={3}>
               <Sidebar />
+              {!this.state.hideHR && <hr className="vhr" />}
             </Col>
             <Col>
               <div className="main-scroll">
                 {this.state.hideHR && <hr />}
+                {!this.state.hideHR && <span className="bullet" />}
                 <About />
                 <hr />
+                {!this.state.hideHR && <span className="bullet" />}
                 <Skills />
                 <hr />
+                {!this.state.hideHR && <span className="bullet" />}
                 <Experience />
                 <hr />
+                {!this.state.hideHR && <span className="bullet" />}
                 <Projects />
               </div>
             </Col>

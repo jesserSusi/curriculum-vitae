@@ -1,6 +1,6 @@
 .sidenav {
-  height: 100%;
   overflow: hidden;
+  padding: 10px;
 }
 
 .sidenav .avatar {
@@ -10,6 +10,6 @@
   overflow: hidden;
 }
 
-/* .sidenav-info {
-  margin: 14px 0 0 0;
-} */
+.sidenav-info {
+  padding-left: 10px;
+}

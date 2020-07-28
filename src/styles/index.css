@@ -18,7 +18,7 @@ body {
 }
 
 .main {
-  margin: 3% 0 3% 0;
+  padding: 2% 0 2% 0;
 }
 
 hr {
@@ -34,6 +34,7 @@ h6 {
   margin-top: 14px;
 }
 
+.sidenav,
 .about,
 .about-me,
 .skills,
@@ -98,6 +99,16 @@ a.email:hover {
   font-weight: bold;
 }
 
+.bullet::before {
+  content: "•";
+}
+
+.bullet {
+  margin-top: 25px;
+  margin-left: -10px;
+  position: absolute;
+}
+
 .experience-item h5,
 .project-desc h5 {
   font-weight: bold;
@@ -110,9 +121,9 @@ a.email:hover {
 }
 
 img {
-  border: rgb(215, 219, 221, 0.7);
+  border: rgb(215, 219, 221, 0.4);
   border-style: solid;
-  border-width: 0.5px;
+  border-width: 0.1px;
 }
 
 .project-info {
@@ -143,4 +154,16 @@ a:hover {
 .carousel-caption {
   background: rgba(28, 40, 51, 0.9);
   border-radius: 10px;
+}
+
+.vhr {
+  border: none;
+  border-left: 1px solid #d0d3d4;
+  height: calc(100% + 3.5rem);
+  width: 1px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: -30px;
+  margin-bottom: 0px;
 }
