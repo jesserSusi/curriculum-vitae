@@ -14,7 +14,7 @@ class Skills extends React.Component {
         <Row>
           <Col>
             <div className="skills">
-              <h3>TECHNICAL SKILLS</h3>
+              <h3>{getData().labels[0].skills}</h3>
             </div>
           </Col>
         </Row>

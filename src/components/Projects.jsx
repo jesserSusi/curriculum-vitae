@@ -30,7 +30,7 @@ class Projects extends React.Component {
     return (
       <>
         <div className="projects">
-          <h3>PERSONAL PROJECTS</h3>
+          <h3>{getData().labels[0].personalProj}</h3>
         </div>
         <div className="project-desc">
           <Row>

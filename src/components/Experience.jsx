@@ -20,21 +20,21 @@ const ExperienceItems = (props, index) => {
       </Row>
       <Row>
         <Col>
-          <h5>Project</h5>
+          <h5>{getData().labels[0].project}</h5>
           <h6>{props.projectInfo}</h6>
           <br />
         </Col>
       </Row>
       <Row>
         <Col xs={12} lg={8}>
-          <h5>Responsibilities</h5>
+          <h5>{getData().labels[0].responsibilities}</h5>
           {props.responsibilities.map((item, index) => (
             <li key={index}>{item}</li>
           ))}
         </Col>
         <Col>
           <div className="experience-tools">
-            <h5>Software Development Tools</h5>
+            <h5>{getData().labels[0].tools}</h5>
             {props.tools.map((item, index) => (
               <li key={index}>{item}</li>
             ))}
@@ -52,7 +52,7 @@ class Experience extends React.Component {
         <Row>
           <Col>
             <div className="experience">
-              <h3>EXPERIENCE</h3>
+              <h3>{getData().labels[0].experience}</h3>
             </div>
           </Col>
         </Row>

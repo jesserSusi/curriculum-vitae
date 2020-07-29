@@ -17,6 +17,7 @@ class App extends Component {
   }
 
   componentDidMount() {
+    document.title = process.env.REACT_APP_TITLE;
     window.addEventListener("resize", this.resize.bind(this));
     this.resize();
   }

@@ -128,5 +128,20 @@
     },
     { "info": "Agile Scrum Development, Kanban" },
     { "info": "DevExpress" }
+  ],
+  "labels": [
+    {
+      "about": "ABOUT",
+      "skills": "TECHNICAL SKILLS",
+      "experience": "EXPERIENCE",
+      "personalProj": "PERSONAL PROJECTS",
+      "project": "Project",
+      "responsibilities": "Responsibilities",
+      "tools": "Software Development Tools",
+      "socGitHub": "GitHub",
+      "socLinkedIn": "LinkedIn",
+      "socEmail": "Email",
+      "socCV": "Curriculum Vitae/Resume"
+    }
   ]
 }

@@ -9,7 +9,7 @@ class About extends React.Component {
       <Row>
         <Col>
           <div className="about-me">
-            <h3>ABOUT</h3>
+            <h3>{getData().labels[0].about}</h3>
           </div>
           <div className="about">
             {getData() !== undefined &&
