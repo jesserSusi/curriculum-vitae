@@ -46,33 +46,34 @@ class Sidebar extends Component {
                 <a href={process.env.REACT_APP_LOCATION}> Wellington, NZ</a>
               </h5>
 
-              <div className="socials"></div>
               <h5 style={{ marginRight: "0.5rem" }}>Connect with me:</h5>
-              <div className="socials-icons">
-                <SocialIcon
-                  link={process.env.REACT_APP_FOOTER_GITHUB}
-                  classname="github social"
-                  faicon={faGithub}
-                  info="GitHub"
-                />
-                <SocialIcon
-                  link={process.env.REACT_APP_FOOTER_LINKEDIN}
-                  classname="linkedin social"
-                  faicon={faLinkedin}
-                  info="LinkedIn"
-                />
-                <SocialIcon
-                  link={process.env.REACT_APP_FOOTER_EMAIL}
-                  classname="email social"
-                  faicon={faEnvelope}
-                  info="Email"
-                />
-                <SocialIcon
-                  link={process.env.REACT_APP_FOOTER_CV}
-                  classname="resume social"
-                  faicon={faFileCode}
-                  info="Curriculum Vitae or Resume"
-                />
+              <div className="socials">
+                <div className="socials-icons">
+                  <SocialIcon
+                    link={process.env.REACT_APP_FOOTER_GITHUB}
+                    classname="github social"
+                    faicon={faGithub}
+                    info="GitHub"
+                  />
+                  <SocialIcon
+                    link={process.env.REACT_APP_FOOTER_LINKEDIN}
+                    classname="linkedin social"
+                    faicon={faLinkedin}
+                    info="LinkedIn"
+                  />
+                  <SocialIcon
+                    link={process.env.REACT_APP_FOOTER_EMAIL}
+                    classname="email social"
+                    faicon={faEnvelope}
+                    info="Email"
+                  />
+                  <SocialIcon
+                    link={process.env.REACT_APP_FOOTER_CV}
+                    classname="resume social"
+                    faicon={faFileCode}
+                    info="Curriculum Vitae or Resume"
+                  />
+                </div>
               </div>
             </div>
           </Col>

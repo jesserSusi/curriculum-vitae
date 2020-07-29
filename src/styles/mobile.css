@@ -27,7 +27,42 @@
 @media only screen and (min-width: 1024px) {
   .sidenav {
     position: fixed !important;
-    width: calc(100% / 4 - 2 * 1em - 2 * 1px) !important;
+    width: calc(100% / 3 - 2 * 1em - 2 * 1px) !important;
     margin-right: -20px !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .sidenav {
+    position: fixed !important;
+    width: calc(100% / 6 - 2 * 1em - 2 * 1px) !important;
+    margin-right: -20px !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1510px) {
+  .sidenav h1 {
+    font-size: x-large;
+  }
+
+  .sidenav h5 {
+    font-size: medium;
+  }
+
+  a.linkedin,
+  a.github,
+  a.email,
+  a.resume {
+    font-size: 10px !important;
+  }
+}
+
+@media only screen and (min-width: 1510px) {
+  .sidenav h1 {
+    font-size: xx-large;
+  }
+
+  .sidenav h5 {
+    font-size: larger;
   }
 }

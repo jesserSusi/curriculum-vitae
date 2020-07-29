@@ -37,7 +37,7 @@ class App extends Component {
         <Container fluid>
           <Row>
             <Col xl={1} />
-            <Col sm={12} xs={12} md={12} lg={3} xl={3}>
+            <Col sm={12} xs={12} md={12} lg={4} xl={2}>
               <Sidebar />
               {!this.state.hideHR && <hr className="vhr" />}
             </Col>
