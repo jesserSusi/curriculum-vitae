@@ -2,10 +2,9 @@ body {
   font-family: "Average Sans";
 
   background-color: #18191a;
-  color: #a7adba;
+  color: #707b7c;
 
   text-rendering: optimizeLegibility;
-  color: #b3b6b7;
   -webkit-font-smoothing: subpixel-antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -92,7 +91,7 @@ a.email:hover {
 .experience h3,
 .projects h3 {
   padding: 20px 20px 10px 20px;
-  color: #d0d3d4;
+  color: #99a3a4;
 
   font-family: "Alegreya SC";
   font-weight: bold;
@@ -119,6 +118,10 @@ a.email:hover {
   margin-top: 14px;
 }
 
+.experience-item h5 {
+  color: #99a3a4;
+}
+
 img {
   border: rgb(215, 219, 221, 0.4);
   border-style: solid;
@@ -142,10 +145,12 @@ img {
   padding-top: 20px;
 }
 
+.project-desc h5,
 a {
   color: #7fb3d5;
 }
 
+.project-desc h5:hover,
 a:hover {
   color: #2e86c1;
 }
