@@ -2,7 +2,7 @@ body {
   font-family: "Average Sans";
 
   background-color: #18191a;
-  color: #707b7c;
+  color: #7f8c8d;
 
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -91,7 +91,7 @@ a.email:hover {
 .experience h3,
 .projects h3 {
   padding: 20px 20px 10px 20px;
-  color: #99a3a4;
+  color: #ccd1d1;
 
   font-family: "Alegreya SC";
   font-weight: bold;
