@@ -37,7 +37,6 @@ h6 {
 .about-me,
 .skills,
 .experience,
-.experience-item,
 .projects,
 .project-desc,
 .skills-info {
@@ -107,19 +106,8 @@ a.email:hover {
   position: absolute;
 }
 
-.experience-item h5,
 .project-desc h5 {
   font-weight: bold;
-}
-
-.experience-item {
-  padding: 20px;
-  display: block;
-  margin-top: 14px;
-}
-
-.experience-item h5 {
-  color: #99a3a4;
 }
 
 img {
@@ -170,4 +158,25 @@ a:hover {
   top: 0;
   margin-top: -40px;
   margin-bottom: 0px;
+}
+
+::-moz-selection {
+  color: #1c2833;
+  background: #fef9e7;
+}
+
+::selection {
+  color: #1c2833;
+  background: #fef9e7;
+}
+
+.vertical-timeline-element-date {
+  color: #99a3a4;
+  font-size: medium !important;
+  font-weight: bold !important;
+}
+
+.vertical-timeline-element-title {
+  color: #99a3a4;
+  font-weight: bold;
 }

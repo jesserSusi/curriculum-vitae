@@ -9,11 +9,11 @@ class About extends React.Component {
       <Row>
         <Col>
           <div className="about-me">
-            <h3>{getData().labels[0].background}</h3>
+            <h3>{getData().labels[0].about}</h3>
           </div>
           <div className="about">
             {getData() !== undefined &&
-              getData().background.map((item, index) => (
+              getData().about.map((item, index) => (
                 <p key={index}>{item.info}</p>
               ))}
           </div>
