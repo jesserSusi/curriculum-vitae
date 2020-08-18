@@ -2,7 +2,7 @@ body {
   font-family: "Average Sans";
 
   background-color: #18191a;
-  color: #7f8c8d;
+  color: #99a3a4;
 
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -39,7 +39,8 @@ h6 {
 .experience,
 .projects,
 .project-desc,
-.skills-info {
+.skills-info,
+.timeline {
   background-color: #242526;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -110,6 +111,10 @@ img {
   border-width: 0.1px;
 }
 
+.experience {
+  margin-bottom: 16px;
+}
+
 .project-info {
   margin-bottom: -8px;
 }
@@ -170,14 +175,20 @@ a::selection,
 }
 
 .vertical-timeline-element-date {
-  color: #99a3a4;
+  color: #ccd1d1;
   font-size: medium !important;
   font-weight: bold !important;
+  padding-bottom: 0px !important;
 }
 
 .vertical-timeline-element-title {
   color: #99a3a4;
   font-weight: bold;
+  margin-bottom: 5px !important;
+}
+
+.vertical-timeline-element-subtitle {
+  margin-bottom: 12px !important;
 }
 
 /* CUSTOM LINE COLOR */
@@ -199,4 +210,8 @@ a::selection,
   .vertical-timeline-element-icon {
   box-shadow: 0 0 0 4px #909497, inset 0 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 3px 0 #616a6b !important;
 }

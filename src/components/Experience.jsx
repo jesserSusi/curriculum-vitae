@@ -14,8 +14,8 @@ const ExperienceItem = (props, index) => {
   return (
     <VerticalTimelineElement
       className="vertical-timeline-element--work"
-      contentStyle={{ background: "rgb(36, 37, 38)", color: "#7f8c8d" }}
-      contentArrowStyle={{ borderRight: "7px solid  rgb(36, 37, 38)" }}
+      contentStyle={{ background: "rgb(48, 51, 55)", color: "#99A3A4" }}
+      contentArrowStyle={{ borderRight: "7px solid  rgb(48, 51, 55)" }}
       date={`${props.start} – ${props.end}`}
       iconStyle={{ background: "rgb(66, 73, 73)", color: "#ccd1d1" }}
       icon={<LaptopIcon />}
@@ -24,10 +24,9 @@ const ExperienceItem = (props, index) => {
       <Row>
         <Col>
           <h5 className="vertical-timeline-element-title">{props.title}</h5>
-          <h6>
+          <h6 className="vertical-timeline-element-subtitle">
             <a href={props.website}>{props.name}</a> / {props.location}
           </h6>
-          <br />
         </Col>
       </Row>
       <Row>
@@ -35,8 +34,9 @@ const ExperienceItem = (props, index) => {
           <h5 className="vertical-timeline-element-title">
             {getData().labels[0].project}
           </h5>
-          <h6>{props.projectInfo}</h6>
-          <br />
+          <h6 className="vertical-timeline-element-subtitle">
+            {props.projectInfo}
+          </h6>
         </Col>
       </Row>
       <Row>
@@ -69,10 +69,10 @@ const EducationItem = (props) => {
   return (
     <VerticalTimelineElement
       className="vertical-timeline-element--education"
-      contentStyle={{ background: "rgb(36, 37, 38)", color: "#7f8c8d" }}
-      contentArrowStyle={{ borderRight: "7px solid  rgb(36, 37, 38)" }}
+      contentStyle={{ background: "rgb(48, 51, 55)", color: "#7f8c8d" }}
+      contentArrowStyle={{ borderRight: "7px solid  rgb(48, 51, 55)" }}
       date={`${data.start} – ${data.end}`}
-      iconStyle={{ background: "rgb(31, 97, 141)", color: "#fff" }}
+      iconStyle={{ background: "rgb(31, 97, 141)", color: "#ccd1d1" }}
       icon={<SchoolIcon />}
     >
       <Row>
@@ -98,20 +98,22 @@ class Experience extends React.Component {
           </Col>
         </Row>
 
-        <VerticalTimeline
-          layout="1-column"
-          className="vertical-timeline-custom-line"
-        >
-          {getData() !== undefined &&
-            getData().experience.map((item, index) =>
-              ExperienceItem(item, index)
-            )}
-          <EducationItem education={getData().education} />
-          {/* <VerticalTimelineElement
-            iconStyle={{ background: "rgb(31, 97, 141)", color: "#fff" }}
-            icon={<SchoolIcon />}
-          /> */}
-        </VerticalTimeline>
+        <Row>
+          <Col>
+            <div className="timeline">
+              <VerticalTimeline
+                layout="1-column"
+                className="vertical-timeline-custom-line"
+              >
+                {getData() !== undefined &&
+                  getData().experience.map((item, index) =>
+                    ExperienceItem(item, index)
+                  )}
+                <EducationItem education={getData().education} />
+              </VerticalTimeline>
+            </div>
+          </Col>
+        </Row>
       </>
     );
   }
