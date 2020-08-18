@@ -23,7 +23,7 @@ class App extends Component {
   }
 
   resize() {
-    let currentHideNav = window.innerWidth <= 990;
+    let currentHideNav = window.innerWidth < 992;
     if (currentHideNav !== this.state.hideNav) {
       this.setState({ hideHR: currentHideNav });
     }

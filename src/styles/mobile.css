@@ -10,7 +10,7 @@
   }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 991px) {
   .experience-tools {
     margin-top: 20px;
   }
@@ -32,7 +32,7 @@
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 992px) {
   .sidenav {
     position: fixed !important;
     width: calc(100% / 3 - 2 * 1em - 2 * 1px) !important;
