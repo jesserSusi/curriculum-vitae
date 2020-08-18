@@ -8,11 +8,7 @@ import Tooltip from "react-bootstrap/Tooltip";
 import { getData } from "../helpers";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import {
-  faEnvelope,
-  faFileCode,
-  faMapMarkerAlt,
-} from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import "../styles/sidebar.css";
 
 const SocialIcon = (props) => {
