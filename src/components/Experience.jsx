@@ -10,14 +10,14 @@ import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
 import LaptopIcon from "@material-ui/icons/Laptop";
 
-const TimelineItem = (props, index) => {
+const ExperienceItem = (props, index) => {
   return (
     <VerticalTimelineElement
       className="vertical-timeline-element--work"
       contentStyle={{ background: "rgb(36, 37, 38)", color: "#7f8c8d" }}
       contentArrowStyle={{ borderRight: "7px solid  rgb(36, 37, 38)" }}
       date={`${props.start} – ${props.end}`}
-      iconStyle={{ background: "rgb(97, 106, 107)", color: "#fff" }}
+      iconStyle={{ background: "rgb(66, 73, 73)", color: "#ccd1d1" }}
       icon={<LaptopIcon />}
       key={index}
     >
@@ -63,6 +63,29 @@ const TimelineItem = (props, index) => {
   );
 };
 
+const EducationItem = (props) => {
+  const data = props.education[0];
+
+  return (
+    <VerticalTimelineElement
+      className="vertical-timeline-element--education"
+      contentStyle={{ background: "rgb(36, 37, 38)", color: "#7f8c8d" }}
+      contentArrowStyle={{ borderRight: "7px solid  rgb(36, 37, 38)" }}
+      date={`${data.start} – ${data.end}`}
+      iconStyle={{ background: "rgb(31, 97, 141)", color: "#fff" }}
+      icon={<SchoolIcon />}
+    >
+      <Row>
+        <Col>
+          <h5 className="vertical-timeline-element-title">{data.degree}</h5>
+          <h6>{data.institution}</h6>
+          <h6>{data.assessment}</h6>
+        </Col>
+      </Row>
+    </VerticalTimelineElement>
+  );
+};
+
 class Experience extends React.Component {
   render() {
     return (
@@ -75,15 +98,19 @@ class Experience extends React.Component {
           </Col>
         </Row>
 
-        <VerticalTimeline layout="1-column">
+        <VerticalTimeline
+          layout="1-column"
+          className="vertical-timeline-custom-line"
+        >
           {getData() !== undefined &&
             getData().experience.map((item, index) =>
-              TimelineItem(item, index)
+              ExperienceItem(item, index)
             )}
-          <VerticalTimelineElement
+          <EducationItem education={getData().education} />
+          {/* <VerticalTimelineElement
             iconStyle={{ background: "rgb(31, 97, 141)", color: "#fff" }}
             icon={<SchoolIcon />}
-          />
+          /> */}
         </VerticalTimeline>
       </>
     );

@@ -16,6 +16,15 @@
       "info": "Looking forward to connecting with ICT professionals."
     }
   ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Information Technology",
+      "institution": "Polytechnic University of the Philippines",
+      "start": "Jun 2008",
+      "end": "April 2012",
+      "assessment": "Level 7, NZQA Assessed"
+    }
+  ],
   "experience": [
     {
       "name": "Infor",
@@ -136,7 +145,7 @@
     {
       "about": "ABOUT ME",
       "skills": "TECHNICAL SKILLS",
-      "experience": "EXPERIENCE",
+      "experience": "EXPERIENCE & EDUCATION",
       "personalProj": "PERSONAL PROJECTS",
       "project": "Project",
       "responsibilities": "Responsibilities",
