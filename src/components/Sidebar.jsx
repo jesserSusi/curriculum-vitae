@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
@@ -31,57 +32,83 @@ class Sidebar extends Component {
   render() {
     return (
       <div className="sidenav">
-        <Row>
-          <Col xs={1} sm={2} md={2} />
-          <Col sm={4} md={4} lg={12} xl={12}>
-            <div className="avatar">
-              <Image src={process.env.REACT_APP_AVATAR} rounded fluid />
-            </div>
-          </Col>
-          <Col>
-            <div className="sidenav-info">
-              <h1>{process.env.REACT_APP_NAME}</h1>
-              <h5>{process.env.REACT_APP_POSITION}</h5>
-              <h5>
-                <FontAwesomeIcon icon={faMapMarkerAlt} size="1x" />
-                <a href={process.env.REACT_APP_COORDINATES}>
-                  {" "}
-                  {process.env.REACT_APP_LOCATION}
-                </a>
-              </h5>
+        <div className="sidenav-details">
+          <Row>
+            <Col xs={2} md={3} />
+            <Col xs={8} md={6} lg={12}>
+              <Row>
+                <Col xs={4} />
+                <Col lg={12}>
+                  <div className="avatar">
+                    <Image
+                      src={process.env.REACT_APP_AVATAR}
+                      roundedCircle
+                      fluid
+                    />
+                  </div>
+                </Col>
+                <Col xs={4} />
+              </Row>
 
-              <div className="socials">
-                <div className="socials-icons">
-                  <SocialIcon
-                    link={process.env.REACT_APP_FOOTER_GITHUB}
-                    classname="github social"
-                    faicon={faGithub}
-                    info={getData().labels[0].socGitHub}
-                  />
-                  <SocialIcon
-                    link={process.env.REACT_APP_FOOTER_LINKEDIN}
-                    classname="linkedin social"
-                    faicon={faLinkedin}
-                    info={getData().labels[0].socLinkedIn}
-                  />
-                  <SocialIcon
-                    link={process.env.REACT_APP_FOOTER_EMAIL}
-                    classname="email social"
-                    faicon={faEnvelope}
-                    info={getData().labels[0].socEmail}
-                  />
-                  <SocialIcon
-                    link={process.env.REACT_APP_FOOTER_CV}
-                    classname="resume social"
-                    faicon={faFileCode}
-                    info={getData().labels[0].socCV}
-                  />
-                </div>
+              <div className="sidenav-info">
+                <h1>{process.env.REACT_APP_NAME}</h1>
+                <h5>{process.env.REACT_APP_POSITION}</h5>
+                <h5>
+                  <FontAwesomeIcon icon={faMapMarkerAlt} size="1x" />
+                  <a href={process.env.REACT_APP_COORDINATES}>
+                    {" "}
+                    {process.env.REACT_APP_LOCATION}
+                  </a>
+                </h5>
+
+                <Row>
+                  <Col xl={3} />
+                  <Col xs={12}>
+                    <div className="socials">
+                      <div className="socials-icons">
+                        <SocialIcon
+                          link={process.env.REACT_APP_FOOTER_GITHUB}
+                          classname="github social"
+                          faicon={faGithub}
+                          info={getData().labels[0].socGitHub}
+                        />
+                        <SocialIcon
+                          link={process.env.REACT_APP_FOOTER_LINKEDIN}
+                          classname="linkedin social"
+                          faicon={faLinkedin}
+                          info={getData().labels[0].socLinkedIn}
+                        />
+                        <SocialIcon
+                          link={process.env.REACT_APP_FOOTER_EMAIL}
+                          classname="email social"
+                          faicon={faEnvelope}
+                          info={getData().labels[0].socEmail}
+                        />
+                      </div>
+                    </div>
+                  </Col>
+                  <Col xl={3} />
+                </Row>
               </div>
-            </div>
-          </Col>
-          <Col xs={1} sm={2} md={2} />
-        </Row>
+            </Col>
+            <Col xs={2} md={3} />
+          </Row>
+        </div>
+        <div className="sidenav-cv">
+          <Row>
+            <Col xs={3} md={3} xl={2} />
+            <Col>
+              <Button
+                href={process.env.REACT_APP_FOOTER_CV}
+                variant="secondary"
+                block
+              >
+                {getData().labels[0].socCV}
+              </Button>
+            </Col>
+            <Col xs={3} md={3} xl={2} />
+          </Row>
+        </div>
       </div>
     );
   }

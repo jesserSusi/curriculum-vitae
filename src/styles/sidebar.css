@@ -1,27 +1,28 @@
-.sidenav {
+.sidenav-details {
   overflow: hidden;
   padding: 10px;
 }
 
-.sidenav .avatar {
+.sidenav-details .avatar {
   width: auto;
   height: auto;
   overflow: hidden;
   overflow: hidden;
-}
-
-.sidenav-info {
-  padding-left: 10px;
+  margin-bottom: 10px;
 }
 
 .socials {
-  margin-left: -6px;
+  align-content: center;
+  justify-content: center;
+  display: flex;
 }
 
 h1 {
   color: #ccd1d1;
+  text-align: center;
 }
 
 h5 {
   color: #99a3a4;
+  text-align: center;
 }

@@ -32,7 +32,6 @@ h6 {
   margin-top: 14px;
 }
 
-.sidenav,
 .about,
 .about-me,
 .skills,
@@ -44,6 +43,30 @@ h6 {
   background-color: #242526;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sidenav-details {
+  border-radius: 10px 10px 0px 0px;
+  background: rgb(36, 37, 38);
+  background: linear-gradient(
+    0deg,
+    rgba(36, 37, 38, 1) 0%,
+    rgba(48, 51, 55, 1) 70%,
+    rgba(66, 66, 66, 1) 100%
+  );
+}
+
+.sidenav-cv {
+  background-color: #303337;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn {
+  margin: 10px auto;
+  border-radius: 10px;
+  color: #d0d3d4 !important;
+  background-color: #303337;
 }
 
 .socials h5 {
