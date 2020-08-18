@@ -62,12 +62,6 @@ a.resume:hover {
   color: #f8f9f9;
   cursor: pointer;
 }
-a.linkedin:hover {
-  color: #0e76a8;
-}
-a.email:hover {
-  color: #a93226;
-}
 
 .about-me,
 .experience,
@@ -161,13 +155,18 @@ a:hover {
 }
 
 ::-moz-selection {
-  color: #1c2833;
-  background: #fef9e7;
+  color: #d5d8dc;
+  background: #5dade2;
 }
 
 ::selection {
-  color: #1c2833;
-  background: #fef9e7;
+  color: #d5d8dc;
+  background: #5dade2;
+}
+
+a::selection,
+.project-desc h5::selection {
+  color: #f1c40f;
 }
 
 .vertical-timeline-element-date {
