@@ -1,8 +1,11 @@
 # Jesser Susi - Online CV
+
 This is a simple app created using React.js and Bootstrap to show an online version of my CV. Screenshots of my personal projects can be seen on it and displayed using Bootstrap's Carousel.
 
 ## Live Demo
+
 [Jesser Susi - Online CV](https://jessersusi.netlify.app/) on Netlify
+[Jesser Susi - Online CV](https://jessersusi.github.io/curriculum-vitae/) on GitHub
 
 ## Instructions
 
