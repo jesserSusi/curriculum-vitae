@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import "../styles/sidebar.css";
+import CV from "../JesserSusi.pdf";
 
 const SocialIcon = (props) => {
   return (
@@ -94,11 +95,7 @@ class Sidebar extends Component {
           <Row>
             <Col xs={3} md={3} xl={2} />
             <Col>
-              <Button
-                href={process.env.REACT_APP_FOOTER_CV}
-                variant="secondary"
-                block
-              >
+              <Button href={CV} target="_blank" variant="secondary" block>
                 {getData().labels[0].socCV}
               </Button>
             </Col>
