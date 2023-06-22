@@ -1,10 +1,16 @@
 {
   "about": [
     {
-      "info": "Experienced Software Engineer with demonstrated working history in software solution and foreign exchange companies. Skilled in C#, ASP.Net, MSSQL, WPF, React.js, JavaScript, jQuery and Bootstrap."
+      "info": "Experienced Software Engineer with demonstrated working history in different organisations (government agency, software solution and foreign exchange companies)."
     },
     {
-      "info": "Most recently, I was part of an Agile cross-functional team at Infor tasked with migrating the codebase for an existing enterprise application from Windows Form to ASP.Net MVC. We leveraged Web Services and XML while working with our Australian counterparts to deliver the desired solution. We used JavaScript and jQuery for front-end and, aside from development, I was assigned to build and deploy our server for my QA team for their testing processes. Also, I mentored one of my new team members. I have experience working with small teams to develop trading platforms using C#, WPF and SQL for foreign exchange companies."
+      "info": "Skilled in C#, ASP.Net, MS SQL, WPF, Power Apps, React.js, JavaScript, jQuery and Bootstrap."
+    },
+    {
+      "info": "Currently working as a Software Engineer at MBIE, developing and maintaining existing applications within the organisation."
+    },
+    {
+      "info": "Previous experiences include being part of an Agile cross-functional team at Datacom to deliver a software application for local councils in New Zealand and Australia. The work I did in Infor is to migrate the codebase of an existing enterprise application from Windows Form to ASP.Net MVC. We leveraged Web Services and XML while working with our Australian counterparts to deliver the desired solution. We used JavaScript and jQuery for front-end and, aside from development, I was assigned to build and deploy our server for my QA team for their testing processes. Also, I mentored one of my new team members. I have experience working with small teams to develop trading platforms using C#, WPF and SQL for foreign exchange companies."
     },
     {
       "info": "I like to solve problems on my own and find satisfaction when the solutions I developed are working. However, I also believe that working collaboratively with a team is crucial to delivery of the product. So, if there is a particularly difficult problem, I collaborate with my colleagues and use it as a learning experience to improve my skills."
@@ -26,6 +32,71 @@
     }
   ],
   "experience": [
+    {
+      "name": "Ministry of Business, Innovation and Employment",
+      "website": "https://www.mbie.govt.nz/",
+      "location": "Wellington, New Zealand",
+      "start": "Jan 2022",
+      "end": "Present",
+      "title": "Software Engineer",
+      "projectInfo": "Standards New Zealand, Te Reo Māori Outlook Add-in, Covid Compliance Tool, et al.",
+      "responsibilities": [
+        "Developed an Outlook Add-in which inserts Te Reo Māori greetings into the message body. The Add-in has been implemented to other government agencies (Department of Internal Affairs, WorkSafe and Ministry of Housing and Urban Development).",
+        "Implement custom watermarking solution using open-source packages",
+        "Deploy codebase to different environments",
+        "Develop and support applications using Power Platform (Power Apps and Dynamics 365)",
+        "Implement chat bot using Terraform, QnA Maker and LUIS to be used within the organisation",
+        "Work on tech debt—upgrading the .Net framework and updating the codebase when needed",
+        "Built and deployed server for QA testing",
+        "Develop new features and maintain software applications for the organisation"
+      ],
+      "tools": [
+        "Microsoft Visual Studio",
+        "C# .Net",
+        "ASP.NET",
+        "MVC",
+        "Razor",
+        "JavaScript and jQuery",
+        "Bootstrap",
+        "Azure",
+        "Azure DevOps",
+        "Terraform",
+        "Microsoft SQL Server",
+        "Power Apps",
+        "Git"
+      ]
+    },
+    {
+      "name": "Datacom",
+      "website": "https://datacom.com/",
+      "location": "Wellington, New Zealand",
+      "start": "Nov 2020",
+      "end": "Dec 2021",
+      "title": "Software Developer",
+      "projectInfo": "Datascape is a cloud-based solution helping councils to engage and work more collaboratively with their communities. It uses the latest technology to provide a single source of truth across all council services.",
+      "responsibilities": [
+        "Collaboratively worked in an agile manner with business analysts to turn requirements into technical design, which will be used by the local councils in New Zealand and Australia",
+        "Investigated and resolve bug tickets, and work on the customer issues that need to be addressed",
+        "Performed manual testing on the tickets to help clear out the backlog",
+        "Worked on configuration tickets when required for the application",
+        "Helped write migration scripts for my non-developer colleagues",
+        "Presented the new features to the team members and customers",
+        "Worked with the team to deliver fully functional features",
+        "Proactively resolved merge conflicts on the Dev and Test branches"
+      ],
+      "tools": [
+        "Microsoft Visual Studio",
+        "C# .Net",
+        "ASP.NET",
+        "MVC",
+        "Bootstrap",
+        "Confluence",
+        "Azure DevOps",
+        "Microsoft SQL Server",
+        "Git",
+        "Agile Scrum"
+      ]
+    },
     {
       "name": "Infor",
       "website": "https://www.infor.com/",
@@ -131,15 +202,15 @@
     { "info": "C# .Net, ASP.NET MVC, WPF" },
     { "info": "javaScript, jQuery, HTML, CSS, Bootstrap, React.js" },
     { "info": "Microsoft SQL Server" },
-    { "info": "Visual Studio, Visual Studio Code" }
+    { "info": "Visual Studio, Visual Studio Code" },
+    { "info": "Power Platform, Power Apps, Microsoft D365" }
   ],
   "tools": [
     { "info": "Web Services and APIs, REST APIs" },
-    {
-      "info": "Microsoft TFS, JIRA, GitHub, Heroku, Netlify"
-    },
+    { "info": "Microsoft TFS, JIRA, GitHub, Heroku, Netlify" },
     { "info": "Agile Scrum Development, Kanban" },
-    { "info": "Unit Tests, MSTest, NUnit" }
+    { "info": "Unit Tests, MSTest, NUnit" },
+    { "info": "Terraform, Azure" }
   ],
   "labels": [
     {

@@ -17,7 +17,7 @@ const ExperienceItem = (props, index) => {
       contentStyle={{ background: "rgb(48, 51, 55)", color: "#99A3A4" }}
       contentArrowStyle={{ borderRight: "7px solid  rgb(48, 51, 55)" }}
       date={`${props.start} – ${props.end}`}
-      iconStyle={{ background: "rgb(66, 73, 73)", color: "#ccd1d1" }}
+      iconStyle={{ background: props.end === "Present" ? "rgb(31, 97, 141)" : "rgb(66, 73, 73)", color: "#ccd1d1" }}
       icon={<LaptopIcon />}
       key={index}
     >
@@ -25,7 +25,7 @@ const ExperienceItem = (props, index) => {
         <Col>
           <h5 className="vertical-timeline-element-title">{props.title}</h5>
           <h6 className="vertical-timeline-element-subtitle">
-            <a href={props.website}>{props.name}</a> / {props.location}
+            <a href={props.website}>{props.name}</a> | {props.location}
           </h6>
         </Col>
       </Row>
