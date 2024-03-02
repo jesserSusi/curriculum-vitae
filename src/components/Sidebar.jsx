@@ -34,8 +34,8 @@ class Sidebar extends Component {
             <Col xs={2} md={3} />
             <Col xs={8} md={6} lg={12}>
               <Row>
-                <Col xs={4} />
-                <Col lg={12}>
+                <Col xs={4} s={3} l={1} xl={1}/>
+                <Col lg={12} xl={10}>
                   <div className="avatar">
                     <Image
                       src={process.env.REACT_APP_AVATAR}
@@ -44,7 +44,7 @@ class Sidebar extends Component {
                     />
                   </div>
                 </Col>
-                <Col xs={4} />
+                <Col xs={4} s={3} l={1} xl={1}/>
               </Row>
 
               <div className="sidenav-info">

@@ -41,14 +41,16 @@
       "title": "Software Engineer",
       "projectInfo": "Standards New Zealand, Te Reo Māori Outlook Add-in, Covid Compliance Tool, et al.",
       "responsibilities": [
-        "Developed an Outlook Add-in which inserts Te Reo Māori greetings into the message body. The Add-in has been implemented to other government agencies (Department of Internal Affairs, WorkSafe and Ministry of Housing and Urban Development).",
-        "Implement custom watermarking solution using open-source packages",
+        "Developed an Outlook Add-in which inserts Te Reo Māori greetings into the message body. The Add-in has been presented and implemented to other government agencies (Department of Internal Affairs, WorkSafe, Housing and Urban Development, Ministry of Primary Industries, Māori Language Commission, StatsNZ and Auckland Transport).",
+        "Developed an Azure function app which processes a .csv file for copying a collection of files from one storage account to another, then generate a SAS key which will be sent through an email of the admin",
+        "Implemented custom watermarking solution using open-source packages instead of using paid application",
         "Deploy codebase to different environments",
-        "Develop and support applications using Power Platform (Power Apps and Dynamics 365)",
-        "Implement chat bot using Terraform, QnA Maker and LUIS to be used within the organisation",
+        "Develop, support and applications using Power Platform (Power Apps and Dynamics 365)",
+        "Implement chat bot using Terraform, QnA Maker and LUIS to be used within the organization",
         "Work on tech debt—upgrading the .Net framework and updating the codebase when needed",
         "Built and deployed server for QA testing",
-        "Develop new features and maintain software applications for the organisation"
+        "Develop new features and maintain software applications for the organization",
+        "Write SQL scripts to create or update the table when needed for application support and maintenance"
       ],
       "tools": [
         "Microsoft Visual Studio",
@@ -109,7 +111,7 @@
         "Migrated codebase of an existing enterprise application from Windows forms to ASP.NET MVC, leveraging Web Services and XML while working with counterparts from Australia",
         "Conducted unit testing and regression testing for functionality and quality control",
         "Reviewed deliverables with system stakeholders",
-        "Developed and presented web form prototypes for the organisation",
+        "Developed and presented web form prototypes for the organization",
         "Built and deployed server for QA testing",
         "Collated and reported feedback on UI bugs to Infor design team based in USA",
         "Created and presented weekly data presentations to team",
