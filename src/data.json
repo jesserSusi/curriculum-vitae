@@ -4,19 +4,19 @@
       "info": "Experienced Software Engineer with demonstrated working history in different organisations (government agency, software solution and foreign exchange companies)."
     },
     {
-      "info": "Skilled in C#, ASP.Net, MS SQL, WPF, Power Apps, React.js, JavaScript, jQuery and Bootstrap."
+      "info": "Skilled in C#, ASP.Net, MS SQL, Azure, WPF, Power Apps, React.js, JavaScript, jQuery and Bootstrap."
     },
     {
-      "info": "Currently working as a Software Engineer at MBIE, developing and maintaining existing applications within the organisation."
+      "info": "Currently working as a Software Engineer at MBIE, developing new applications and maintaining existing systems within the organisation."
     },
     {
-      "info": "Previous experiences include being part of an Agile cross-functional team at Datacom to deliver a software application for local councils in New Zealand and Australia. The work I did in Infor is to migrate the codebase of an existing enterprise application from Windows Form to ASP.Net MVC. We leveraged Web Services and XML while working with our Australian counterparts to deliver the desired solution. We used JavaScript and jQuery for front-end and, aside from development, I was assigned to build and deploy our server for my QA team for their testing processes. Also, I mentored one of my new team members. I have experience working with small teams to develop trading platforms using C#, WPF and SQL for foreign exchange companies."
+      "info": "Previous experiences include working with an Agile cross-functional team at Datacom to deliver a software application for local councils in New Zealand and Australia. The work I did in Infor is to migrate the codebase of an existing enterprise application from Windows Form to ASP.Net MVC. We leveraged Web Services and XML while working with our Australian counterparts to deliver the desired solution. We used JavaScript and jQuery for front-end and, aside from development, I was assigned to build and deploy our server for my QA team for their testing processes. Also, I mentored one of my new team members. I have experience working with small teams to develop trading platforms using C#, WPF and SQL for foreign exchange companies."
     },
     {
       "info": "I like to solve problems on my own and find satisfaction when the solutions I developed are working. However, I also believe that working collaboratively with a team is crucial to delivery of the product. So, if there is a particularly difficult problem, I collaborate with my colleagues and use it as a learning experience to improve my skills."
     },
     {
-      "info": "I enjoy learning new technologies and currently I’m doing some React.js and Xamarin development which is live on Netlify. I love to bake, cook, take photographs, cycle, travel and play games with friends."
+      "info": "I enjoy learning new technologies and gets satisfaction with the new applications I create. I love to bake, cook, take photographs, cycle, travel and play games with friends."
     },
     {
       "info": "Looking forward to connecting with ICT professionals."
@@ -42,10 +42,10 @@
       "projectInfo": "Standards New Zealand, Te Reo Māori Outlook Add-in, Covid Compliance Tool, et al.",
       "responsibilities": [
         "Developed an Outlook Add-in which inserts Te Reo Māori greetings into the message body. The Add-in has been presented and implemented to other government agencies (Department of Internal Affairs, WorkSafe, Housing and Urban Development, Ministry of Primary Industries, Māori Language Commission, StatsNZ and Auckland Transport).",
-        "Developed an Azure function app which processes a .csv file for copying a collection of files from one storage account to another, then generate a SAS key which will be sent through an email of the admin",
+        "Developed an Azure function app which processes a .csv file for copying a collection of files from one storage account to another, then generates a SAS key which will be sent through an email of the admin",
         "Implemented custom watermarking solution using open-source packages instead of using paid application",
         "Deploy codebase to different environments",
-        "Develop, support and applications using Power Platform (Power Apps and Dynamics 365)",
+        "Develop and support applications using Power Platform (Power Apps and Dynamics 365)",
         "Implement chat bot using Terraform, QnA Maker and LUIS to be used within the organization",
         "Work on tech debt—upgrading the .Net framework and updating the codebase when needed",
         "Built and deployed server for QA testing",
