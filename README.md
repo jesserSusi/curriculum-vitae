@@ -4,7 +4,6 @@ This is a simple app created using React.js and Bootstrap to show an online vers
 
 ## Live Demo
 
-- [Jesser Susi - Online CV](https://jessersusi.netlify.app/) on Netlify
 - [Jesser Susi - Online CV](https://jessersusi.github.io/curriculum-vitae/) on GitHub
 
 ## Instructions
