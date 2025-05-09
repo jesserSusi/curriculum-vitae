@@ -31,7 +31,7 @@ const ExperienceItem = (props, index) => {
       </Row>
       <Row>
         <Col>
-          <h5 className="vertical-timeline-element-title">
+          <h5 className="vertical-timeline-element-label">
             {getData().labels[0].project}
           </h5>
           <h6 className="vertical-timeline-element-subtitle">
@@ -41,7 +41,7 @@ const ExperienceItem = (props, index) => {
       </Row>
       <Row>
         <Col xs={12} lg={8}>
-          <h5 className="vertical-timeline-element-title">
+          <h5 className="vertical-timeline-element-label">
             {getData().labels[0].responsibilities}
           </h5>
           <div className="vertical-timeline-element-item">
@@ -52,7 +52,7 @@ const ExperienceItem = (props, index) => {
         </Col>
         <Col>
           <div className="experience-tools">
-            <h5 className="vertical-timeline-element-title">
+            <h5 className="vertical-timeline-element-label">
               {getData().labels[0].tools}
             </h5>
             <div className="vertical-timeline-element-item">

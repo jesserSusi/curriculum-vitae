@@ -1,3 +1,8 @@
+:root {
+  --vertical-timeline-element-color: #909497;
+  --padding-max: 20px;
+}
+
 body {
   font-family: "Average Sans";
 
@@ -28,7 +33,7 @@ h6 {
 }
 
 .about {
-  padding: 20px 20px 10px 20px;
+  padding: var(--padding-max) var(--padding-max) 10px var(--padding-max);
   margin-top: 14px;
 }
 
@@ -58,14 +63,14 @@ h6 {
 }
 
 .skills-info {
-  padding: 20px;
+  padding: var(--padding-max);
 }
 
 .about-me h3,
 .skills h3,
 .experience h3,
 .projects h3 {
-  padding: 20px 20px 10px 20px;
+  padding: var(--padding-max) var(--padding-max) 10px var(--padding-max);
   color: #ccd1d1;
 
   font-family: "Alegreya SC";
@@ -101,16 +106,16 @@ img {
 }
 
 .project-desc h5 {
-  padding: 0px 20px 0px 20px;
+  padding: 0px var(--padding-max) 0px var(--padding-max);
 }
 
 .project-desc h6 {
-  padding: 0px 20px 20px 20px;
+  padding: 0px var(--padding-max) var(--padding-max) var(--padding-max);
 }
 
 .project-desc {
   margin: 14px 0 14px 0;
-  padding-top: 20px;
+  padding-top: var(--padding-max);
 }
 
 .project-desc h5,
@@ -140,11 +145,7 @@ a:hover {
   margin-bottom: 0px;
 }
 
-::-moz-selection {
-  color: #d5d8dc;
-  background: #5dade2;
-}
-
+::-moz-selection,
 ::selection {
   color: #d5d8dc;
   background: #5dade2;
@@ -163,7 +164,11 @@ a::selection,
 }
 
 .vertical-timeline-element-title {
-  color: #99a3a4;
+  color: #ffffff !important;
+}
+
+.vertical-timeline-element-label {
+  color: #b5b8b9;
   font-weight: bold;
   margin-bottom: 5px !important;
 }
@@ -179,21 +184,21 @@ a::selection,
 /* CUSTOM LINE COLOR */
 /* The line */
 .vertical-timeline.vertical-timeline-custom-line::before {
-  background: #909497;
+  background: var(--vertical-timeline-element-color);
 }
 
 /* Icon container's border */
 .vertical-timeline.vertical-timeline-custom-line
   .vertical-timeline-element--work
   .vertical-timeline-element-icon {
-  box-shadow: 0 0 0 4px #909497, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+  box-shadow: 0 0 0 4px var(--vertical-timeline-element-color), inset 0 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
 .vertical-timeline.vertical-timeline-custom-line
   .vertical-timeline-element--education
   .vertical-timeline-element-icon {
-  box-shadow: 0 0 0 4px #909497, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+  box-shadow: 0 0 0 4px var(--vertical-timeline-element-color), inset 0 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 

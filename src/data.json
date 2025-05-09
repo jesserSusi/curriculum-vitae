@@ -41,10 +41,12 @@
       "title": "Full Stack Developer (Fixed Term)",
       "projectInfo": "e-commerce, online auction and classifieds website.",
       "responsibilities": [
-        "Added a new feature and worked on some updates to the website using Angular, TypeScript and CSS",
+        "Added a new feature and updates to the website using Angular, TypeScript and CSS",
+        "Helped in migrating the old ad implementation to a new third party application",
         "Updated the API to support additional property when user unsubscribes",
         "Updated the existing APIs used within Trade Me",
         "Upgraded and updated the environments using Terraform",
+        "Set up the Blackbox environment for the ads testing by external users",
         "Wrote SQL script for listing maintenance",
         "Facilitated Scrum ceremonies"
       ],
