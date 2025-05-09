@@ -7,10 +7,10 @@
       "info": "Skilled in C#, ASP.Net, MS SQL, Azure, WPF, Power Apps, React.js, JavaScript, jQuery and Bootstrap."
     },
     {
-      "info": "Currently working as a Software Engineer at MBIE, developing new applications and maintaining existing systems within the organisation."
+      "info": "Previous experiences include working at Trade Me as Full Stack Developer (Fixed Term), and Software Engineer at the Ministry of Business, Innovation and Employment."
     },
     {
-      "info": "Previous experiences include working with an Agile cross-functional team at Datacom to deliver a software application for local councils in New Zealand and Australia. The work I did in Infor is to migrate the codebase of an existing enterprise application from Windows Form to ASP.Net MVC. We leveraged Web Services and XML while working with our Australian counterparts to deliver the desired solution. We used JavaScript and jQuery for front-end and, aside from development, I was assigned to build and deploy our server for my QA team for their testing processes. Also, I mentored one of my new team members. I have experience working with small teams to develop trading platforms using C#, WPF and SQL for foreign exchange companies."
+      "info": "Also worked in an Agile cross-functional team at Datacom (Fixed Term) to deliver a software application for local councils in New Zealand and Australia. The work I did in Infor is to migrate the codebase of an existing enterprise application from Windows Form to ASP.Net MVC. We leveraged Web Services and XML while working with our Australian counterparts to deliver the desired solution. We used JavaScript and jQuery for front-end and, aside from development, I was assigned to build and deploy our server for my QA team for their testing processes. Also, I mentored one of my new team members. I have experience working with small teams to develop trading platforms using C#, WPF and SQL for foreign exchange companies."
     },
     {
       "info": "I like to solve problems on my own and find satisfaction when the solutions I developed are working. However, I also believe that working collaboratively with a team is crucial to delivery of the product. So, if there is a particularly difficult problem, I collaborate with my colleagues and use it as a learning experience to improve my skills."
@@ -32,6 +32,35 @@
     }
   ],
   "experience": [
+    {
+      "name": "Trade Me",
+      "website": "https://www.trademe.co.nz/",
+      "location": "Wellington, New Zealand",
+      "start": "Aug 2024",
+      "end": "Feb 2025",
+      "title": "Full Stack Developer (Fixed Term)",
+      "projectInfo": "E-commerce, online auction and classifieds website.",
+      "responsibilities": [
+        "Added a new feature and worked on some updates to the website using Angular, TypeScript and CSS",
+        "Updated the API to support additional property when user unsubscribes",
+        "Updated the existing APIs used within Trade Me",
+        "Upgraded and updated the enviroments using Terraform",
+        "Wrote SQL script for listing maintenance",
+        "Facilitated Scrum ceremonies"
+      ],
+      "tools": [
+        "JetBrains Rider, WebStorm, Aqua",
+        "C# .Net",
+        "Angular",
+        "TypeScript, JavaScript and jQuery",
+        "Tangram",
+        "Playwright Tests",
+        "Google Cloud",
+        "Terraform",
+        "Microsoft SQL Server",
+        "Git"
+      ]
+    },
     {
       "name": "Ministry of Business, Innovation and Employment",
       "website": "https://www.mbie.govt.nz/",
@@ -74,7 +103,7 @@
       "location": "Wellington, New Zealand",
       "start": "Nov 2020",
       "end": "Dec 2021",
-      "title": "Software Developer",
+      "title": "Software Developer (Fixed Term)",
       "projectInfo": "Datascape is a cloud-based solution helping councils to engage and work more collaboratively with their communities. It uses the latest technology to provide a single source of truth across all council services.",
       "responsibilities": [
         "Collaboratively worked in an agile manner with business analysts to turn requirements into technical design, which will be used by the local councils in New Zealand and Australia",
