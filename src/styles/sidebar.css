@@ -4,10 +4,10 @@
 }
 
 .sidenav-details .avatar {
-  width: auto;
-  height: auto;
-  overflow: hidden;
-  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
   margin-bottom: 10px;
 }
 
