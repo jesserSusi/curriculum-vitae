@@ -39,17 +39,17 @@
       "start": "Aug 2024",
       "end": "Feb 2025",
       "title": "Full Stack Developer (Fixed Term)",
-      "projectInfo": "E-commerce, online auction and classifieds website.",
+      "projectInfo": "e-commerce, online auction and classifieds website.",
       "responsibilities": [
         "Added a new feature and worked on some updates to the website using Angular, TypeScript and CSS",
         "Updated the API to support additional property when user unsubscribes",
         "Updated the existing APIs used within Trade Me",
-        "Upgraded and updated the enviroments using Terraform",
+        "Upgraded and updated the environments using Terraform",
         "Wrote SQL script for listing maintenance",
         "Facilitated Scrum ceremonies"
       ],
       "tools": [
-        "JetBrains Rider, WebStorm, Aqua",
+        "JetBrains Rider, WebStorm, and Datagrip",
         "C# .Net",
         "Angular",
         "TypeScript, JavaScript and jQuery",
@@ -231,17 +231,17 @@
   ],
   "skills": [
     { "info": "C# .Net, ASP.NET MVC, WPF" },
-    { "info": "javaScript, jQuery, HTML, CSS, Bootstrap, React.js" },
+    { "info": "Angular, React.js, TypeScript, javaScript, jQuery, HTML, CSS, Bootstrap" },
     { "info": "Microsoft SQL Server" },
-    { "info": "Visual Studio, Visual Studio Code" },
+    { "info": "Visual Studio, Visual Studio Code, Rider, WebStorm" },
     { "info": "Power Platform, Power Apps, Microsoft D365" }
   ],
   "tools": [
     { "info": "Web Services and APIs, REST APIs" },
-    { "info": "Microsoft TFS, JIRA, GitHub, Heroku, Netlify" },
+    { "info": "Microsoft TFS, JIRA, Git, GitHub, Heroku, Netlify" },
     { "info": "Agile Scrum Development, Kanban" },
-    { "info": "Unit Tests, MSTest, NUnit" },
-    { "info": "Terraform, Azure" }
+    { "info": "Unit Tests, MSTest, NUnit, Playwright Tests" },
+    { "info": "Terraform, Azure, Google Cloud" }
   ],
   "labels": [
     {
