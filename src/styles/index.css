@@ -168,6 +168,10 @@ a::selection,
   margin-bottom: 5px !important;
 }
 
+.vertical-timeline-element-item {
+  padding-left: 12px;
+}
+
 .vertical-timeline-element-subtitle {
   margin-bottom: 12px !important;
 }

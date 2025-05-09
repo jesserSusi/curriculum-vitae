@@ -44,18 +44,22 @@ const ExperienceItem = (props, index) => {
           <h5 className="vertical-timeline-element-title">
             {getData().labels[0].responsibilities}
           </h5>
-          {props.responsibilities.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
+          <div className="vertical-timeline-element-item">
+            {props.responsibilities.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </div>
         </Col>
         <Col>
           <div className="experience-tools">
             <h5 className="vertical-timeline-element-title">
               {getData().labels[0].tools}
             </h5>
-            {props.tools.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
+            <div className="vertical-timeline-element-item">
+              {props.tools.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </div>
           </div>
         </Col>
       </Row>

@@ -21,12 +21,16 @@ class Skills extends React.Component {
         <div className="skills-info">
           <Row>
             <Col xs={12} md={6} xl={6}>
+            <div className="vertical-timeline-element-item">
               {getData() !== undefined &&
                 getData().skills.map((item, index) => SkillItems(item, index))}
+            </div>
             </Col>
             <Col>
+            <div className="vertical-timeline-element-item">
               {getData() !== undefined &&
                 getData().tools.map((item, index) => SkillItems(item, index))}
+            </div>
             </Col>
           </Row>
         </div>
