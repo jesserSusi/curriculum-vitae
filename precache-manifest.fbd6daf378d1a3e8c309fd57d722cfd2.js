@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "818cfd196c4a6f1731612cdbb05e8ce6",
+    "revision": "97625346c1768e87d65bd5e777a865ef",
     "url": "/curriculum-vitae/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/curriculum-vitae/static/css/2.0e31c611.chunk.css"
   },
   {
-    "revision": "7dfdb7371f0af7aa9387",
+    "revision": "9600edd9bffdc510de01",
     "url": "/curriculum-vitae/static/css/main.2e984632.chunk.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/curriculum-vitae/static/js/2.4bff1e66.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7dfdb7371f0af7aa9387",
-    "url": "/curriculum-vitae/static/js/main.14ea5fd9.chunk.js"
+    "revision": "9600edd9bffdc510de01",
+    "url": "/curriculum-vitae/static/js/main.d15c7d0d.chunk.js"
   },
   {
     "revision": "d11ba382549c102576d0",
     "url": "/curriculum-vitae/static/js/runtime-main.07eba53b.js"
   },
   {
-    "revision": "ba09fd150f70e12263c71f82717adb01",
-    "url": "/curriculum-vitae/static/media/JesserSusi.ba09fd15.pdf"
+    "revision": "3c5663b809881985f72e961b430e432d",
+    "url": "/curriculum-vitae/static/media/JesserSusi.3c5663b8.pdf"
   },
   {
     "revision": "43876f6cb3cf85c759e08475e3dce315",
