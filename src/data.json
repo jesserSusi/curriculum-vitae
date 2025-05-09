@@ -51,13 +51,10 @@
       "tools": [
         "JetBrains Rider, WebStorm, and Datagrip",
         "C# .Net",
-        "Angular",
-        "TypeScript, JavaScript and jQuery",
-        "Tangram",
+        "Angular, TypeScript, JavaScript and jQuery",
         "Playwright Tests",
         "Google Cloud",
         "Terraform",
-        "Microsoft SQL Server",
         "Git"
       ]
     },
